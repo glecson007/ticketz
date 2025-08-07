@@ -462,17 +462,19 @@ const MainListItems = (props) => {
               icon={<SettingsOutlinedIcon />}
             />
             
-              <Divider />
-              <Typography style={{ fontSize: "12px", padding: "10px", textAlign: "right", fontWeight: "bold" }}>
-                {`${gitinfo.tagName || gitinfo.branchName + " " + gitinfo.commitHash }`} 
-                &nbsp;/&nbsp;
-                {`${gitinfo.buildTimestamp }`}
-              </Typography>
-            
-          </>
-        )}
-      />
-      <Divider />
+               <Divider />
+      <Typography style={{ 
+        fontSize: "12px", 
+        padding: "10px", 
+        textAlign: "right", 
+        fontWeight: "bold" 
+      }}>
+        Versão:6.5.0 - CRM - RO © 2025
+      </Typography>
+    </>
+  )}
+/>
+<Divider />
     </div>
   );
 };
